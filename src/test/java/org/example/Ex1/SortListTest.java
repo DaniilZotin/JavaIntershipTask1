@@ -21,6 +21,6 @@ class SortListTest {
         List <Integer> list = new ArrayList<Integer>(){{add(1);add(0);add(-1);add(3);}};
         SortList sortList = new SortList();
         List <Integer> list1 = new ArrayList<Integer>(){{add(1);add(3);}};
-        assertEquals(list, sortList.Sorting(list));
+        assertEquals(list1, sortList.Sorting(list));
     }
 }
