@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class SortList {
-    public String Sorting(List<Integer> list)
+    public List<Integer> Sorting(List<Integer> list)
     {
         Iterator itr = list.iterator();
         while(itr.hasNext())
@@ -17,6 +17,6 @@ public class SortList {
         }
         System.out.println(list.toString());
 
-        return list.toString();
+        return list;
     }
 }
