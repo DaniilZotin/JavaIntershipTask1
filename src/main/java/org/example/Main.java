@@ -25,6 +25,5 @@ public class Main {
         List<String> form = List.of("Cube","Culindr","Bullet");
         SortAll sortAll = new SortAll();
         sortAll.getresult(form);
-
     }
 }

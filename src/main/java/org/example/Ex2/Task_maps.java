@@ -39,6 +39,6 @@ public class Task_maps {
         }
 
         System.out.println(map1);
-        return map;
+        return map1;
     }
 }
