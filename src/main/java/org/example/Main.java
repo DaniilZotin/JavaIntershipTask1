@@ -15,9 +15,9 @@ public class Main {
         sortList.Sorting(list);
 
         ArrayList<String> Text = new ArrayList<>();
-        Text.add("#Hello wdadwa #wda #Hello #Helflo #Helfdalo");
-        Text.add("awdgr #Heldwalo wdadwa #wda #Helflo");
-        Text.add("#Helflo wdadwa #wwadda wdaadw #Hello");
+        Text.add("#Hello #wdadwa #wda #Hello #wdadwa #Helflo #Helfdalo");
+        Text.add("awdgr #Heldwalo wdadwa #wda #Helflo #Helfdalo");
+        Text.add("#Helflo wdadwa #wwadda wdaadw #Hello #Helfdalo");
         TaskMaps taskMaps = new TaskMaps();
         taskMaps.NewFunc(Text);
 

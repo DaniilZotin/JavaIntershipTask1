@@ -9,7 +9,6 @@ public class TaskMaps {
         if (Text.isEmpty()) {
             throw new IndexOutOfBoundsException("Text is empty");
         } else {
-
             TreeMap<String, Integer> map = new TreeMap<>();
 
             for (String el : Text) {
