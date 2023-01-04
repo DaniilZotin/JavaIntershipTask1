@@ -18,9 +18,9 @@ class SortListTest {
     @org.junit.jupiter.api.Test
     void sorting()
     {
-        List <Integer> list = new ArrayList<Integer>(){{add(1);add(0);add(-1);add(3);}};
+        List <Integer> list = new ArrayList<>(){{add(1);add(0);add(-1);add(3);}};
         SortList sortList = new SortList();
-        List <Integer> list1 = new ArrayList<Integer>(){{add(1);add(3);}};
-        assertEquals(list1, sortList.Sorting(list));
+        List <Integer> result = new ArrayList<>(){{add(1);add(3);}};
+        assertEquals(result, sortList.Sorting(list));
     }
 }

@@ -15,7 +15,7 @@ class SortAllTest {
         List<Double> result = new ArrayList<>(){{add(27.0);add(262.0);add(352.0);}};
         List<String> form = List.of("Cube","Culindr","Bullet");
         SortAll sortAll = new SortAll();
-        assertEquals(result,sortAll.getresult(form));
+        assertEquals(result,sortAll.getResult(form));
 
     }
 }

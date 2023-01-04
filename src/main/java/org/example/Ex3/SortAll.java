@@ -13,20 +13,24 @@ public class SortAll {
 
     ArrayList<Double> result = new ArrayList<>();
    
-    public List<Double> getresult(List<String> form)
+    public List<Double> getResult(List<String> form)
     {
+        if(form.isEmpty())
+        {
+            throw new IndexOutOfBoundsException("List is empty");
+        }
         for (String el : form) {
-            if(el == "Cube")
+            if(el.equals("Cube"))
             {
                 System.out.println(cube.result());
                 result.add(cube.result());
             }
-            else if(el == "Bullet")
+            else if(el.equals("Bullet"))
             {
                 System.out.println(bullet.result());
                 result.add(bullet.result());
             }
-            else if(el == "Culindr")
+            else if(el.equals("Culindr"))
             {
                 System.out.println(culindr.result());
                 result.add(culindr.result());

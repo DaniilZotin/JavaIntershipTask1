@@ -17,7 +17,7 @@ class Task_mapsTest {
         Text.add("#Hello wdadwa #wda #Hello #Helflo #Helfdalo");
         Text.add("awdgr #Heldwalo wdadwa #wda #Helflo");
         Text.add("#Helflo wdadwa #wwadda wdaadw #Hello");
-        Task_maps taskMaps = new Task_maps();
+        TaskMaps taskMaps = new TaskMaps();
         Map<String, Integer> result = new HashMap<>();
         result.put("#Helflo",3);
         result.put("#Hello",2);
